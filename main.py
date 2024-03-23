@@ -3,7 +3,7 @@ from datetime import datetime
 
 city = input("Enter City : ")
 api_url = 'https://api.api-ninjas.com/v1/weather?city={}'.format(city)
-response = requests.get(api_url, headers={'X-Api-Key': 'sZFDB7p58XXwMQtLUNrasA==EixtyQ5Tr1U9esay'})
+response = requests.get(api_url, headers={'X-Api-Key': ''})
 
 newdict = response.json()
 
